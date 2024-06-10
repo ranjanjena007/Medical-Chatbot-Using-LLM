@@ -38,3 +38,29 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 # run the following command to create folder structure
 python templates.py
 ```
+
+```bash
+# setup is required to create a local package of the folder having init 
+setup.py
+```
+
+```bash
+# store_index is required to load vector data to pinecone 
+store_index.py
+```
+
+```bash
+# helper is required to keep all the helper method 
+helper.py
+```
+
+```bash
+# store_index is required to write api logic and fetch result using llm
+app.py
+```
+
+
+```bash
+# run the application using below command 
+python app.py
+```
